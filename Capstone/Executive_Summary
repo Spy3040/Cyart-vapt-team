@@ -1,0 +1,7 @@
+Non-Technical Summary:
+A security assessment was conducted on the DVWA application to evaluate its exposure to cyber threats. 
+The assessment identified critical weaknesses that could allow attackers to access or manipulate sensitive data without authorization. 
+These issues arise mainly from improper input validation within the application.
+
+Successful testing confirmed that an attacker could exploit these weaknesses with minimal effort, posing a high business risk. 
+Immediate remediation is recommended to prevent potential data breaches. Addressing these issues will significantly improve the overall security posture of the application and reduce the likelihood of real-world attacks.
