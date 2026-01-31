@@ -1,1 +1,8 @@
+A full-scope Vulnerability Assessment and Penetration Testing (VAPT) was conducted against the DVWA application hosted on 192.168.81.141, following the PTES methodology. Initial reconnaissance and vulnerability scanning using OpenVAS identified multiple web application weaknesses, including reflected cross-site scripting (XSS) and potential SQL injection points.
+
+Further exploitation was performed using sqlmap to validate SQL injection vulnerabilities. Successful exploitation confirmed that unsanitized user input was directly used in backend SQL queries, allowing database interaction without proper authorization. This demonstrated a high-risk vulnerability that could lead to sensitive data disclosure and application compromise.
+
+The identified issues were mapped to the exploitation phase of PTES and assigned high severity based on impact and ease of exploitation. Recommended remediation includes implementing prepared statements, strict server-side input validation, and proper output encoding.
+
+A follow-up scan is advised after remediation to confirm mitigation effectiveness. The results indicate that without corrective action, the application remains vulnerable to common but critical web attacks.
 
