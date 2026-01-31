@@ -1,4 +1,4 @@
-Purpose: Show what vulnerabilities exist and how you prioritized them
+Purpose: Show vulnerabilities exist in the metasploitable-2 machine and how prioritized them
 $nmap-sV -0-p-192.168.81.141
 Starting Nmap7.98(https://nmap.org)at 2026-01-30 00:25-0500
 Nmap scan report for 192.168.81.141
